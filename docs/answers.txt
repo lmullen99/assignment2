@@ -1,0 +1,81 @@
+Date GitHub Tutorials were completed: 10/07/2020
+Date GitHub account was created: 10/07/2020
+
+
+1. Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 321 bytes | 321.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/lmullen99/assignment2.git
+   f4975e5..81efdaa  master -> master
+
+2. 8 commits
+command used: git rev-list --all --count	 
+
+3. last modified: Wed Oct 7 13:07:43 EDT 2020
+command used: date -r README.md
+
+4. 
+	1. Branches are good for when you want to "branch off" and work on
+	creating a new feature but preserve a snapshot of the project so far.
+	2. Using a branch is a more lightweight way to save your work at
+	a certain point, more lightweight than a commit.
+
+5. Typing the command git log will output a log of all commits done on the
+repository so far. Including the date, user, commit ID, and the commit message.
+Typing git status will output where you are currently checked out, whether you
+are up to date with origin/master, and any changes not yet committed. It will
+also tell you any of the files in the repository that are currently not being
+tracked by git.
+
+6. git log -- follow -- Vehicle.h
+
+7. git log --all --grep="file"
+
+8I.The term inheritance, in object oriented programming refers to the 
+aspect of child classes to receive data and/or functions from the parent class.
+This allows for reusability, and can help eliminate identical code from being
+written multiple times over.
+8II. Polymorphism refers to the ability to have one function name operate
+in different ways for different scenarios. We see this with both function 
+overloading and operator overloading. We can do this by creating identical 
+function names with different function prototypes (e.g. different number or
+ type of parameters.
+8III. The term encapsulation refers to the bundling properties and functions
+into a class. It helps create a user interface that hides or does not allow
+the user to access any methods or data the user does not need access to or
+that the user could potentially harm or destroy.
+
+9.The main difference between the Dictator and Lieutenants workflow and the
+Integration manager workflow is the presence of the two lieutenants that 
+merge changes across some (not all) of the developers' repositories. This way
+the dictator has considerably less integrationconflicts than he/she would
+otherwise. Such is the case in the Integration manager workflow where work
+goes directly from developers to the integration manager and from there
+to the blessed repository. Here there is only one phase of integration
+conflict resolution.
+
+10.
+In the centralized workflow, all developers are responsible for pull any 
+changes in the central repository and resolve any conflicts themselves before 
+pushing to the central repository. This would be highly inefficient on a 
+team of 100 developers. Instead the dictator and lieutenants workflow would
+work very well, lieutenants would be assigned a certain number of developers
+to merge changes for and resolve conflicts. Then the dictator could resolve 
+conflicts between the merging of lietenant repositories. This would be much
+more efficient than the centralized workflow.
+
+
+
+
+
+
+
+
+
+
+
+
+
